@@ -13,7 +13,7 @@ slug:
 collections:
   - name: "posts"
     label: "Posts"
-    folder: "content/posts"
+    folder: "cms/content/posts"
     create: true
     sortableFields: ["date"]
     fields:
@@ -29,7 +29,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "pages"
     label: "Pages"
-    folder: "content/pages"
+    folder: "cms/content/pages"
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }

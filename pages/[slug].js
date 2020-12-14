@@ -1,14 +1,14 @@
 import React from "react";
 import moment from "moment";
 import Head from "../components/head";
-import firstParagraphFromHtmlString from "../lib/firstParagraph";
+import firstParagraphFromHtmlString from "../cms/lib/firstParagraph";
 
 import {
   getPageSlugs,
   getPostSlugs,
   getPageBySlug,
   getPostBySlug,
-} from "../lib/api";
+} from "../cms/lib/api";
 
 const Page = ({ markdown }) => {
   if (!markdown) return <div>404</div>;

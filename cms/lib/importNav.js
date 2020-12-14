@@ -1,4 +1,4 @@
-export default async () => {
+const Nav = async () => {
   const markdownFiles = require
     .context("../content/pages", false, /\.md$/)
     .keys()
@@ -13,4 +13,6 @@ export default async () => {
   return posts;
 };
 
-// TODO: when getStaticProps is supported in _app this can be removed along with markdown loader, and use functions in /lib/api instead
+export default Nav;
+
+// TODO: when getStaticProps is supported in _app this can be removed along with markdown loader, and use functions in /cms/lib/api instead

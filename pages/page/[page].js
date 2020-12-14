@@ -1,12 +1,12 @@
 import React from "react";
 import Head from "../../components/head";
 import PostList from "../../components/PostList";
-import { getPosts, getPostSlugs, postsPerPage } from "../../lib/api";
+import { getPosts, getPostSlugs, postsPerPage } from "../../cms/lib/api";
 
 const Home = ({ posts, currentPage, totalPages }) => {
   return (
     <>
-      <Head title="Klimatpodden" />
+      <Head title="Family Health Services" />
 
       <PostList
         posts={posts}

@@ -3,3 +3,4 @@ export default htmlString => {
   const end = htmlString.indexOf("</p>");
   return htmlString.substring(start, end).replace(/<\/?[^>]+(>|$)/g, "");
 };
+

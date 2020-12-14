@@ -3,8 +3,8 @@ import { join } from "path";
 import matter from "gray-matter";
 import markdownToHtml from "./markdownToHtml";
 
-const postsDirectory = join(process.cwd(), "content/posts");
-const pagesDirectory = join(process.cwd(), "content/pages");
+const postsDirectory = join(process.cwd(), "cms/content/posts");
+const pagesDirectory = join(process.cwd(), "cms/content/pages");
 
 export const postsPerPage = 10;
 

@@ -2,7 +2,7 @@ import Head from "next/head";
 
 const HeadComponent = (
   {
-    title = "Klimatpodden",
+    title = "Family Health Services",
     description = "I Klimatpodden möter du aktivister, forskare, entreprenörer och andra som agerar för att stoppa klimatförändringarna.",
     slug = ""
   }

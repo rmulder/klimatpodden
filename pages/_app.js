@@ -2,7 +2,7 @@ import React from "react";
 import App from "next/app";
 import Router from "next/router";
 import withGA from "next-ga";
-import importNav from "../lib/importNav";
+import importNav from "../cms/lib/importNav";
 import Nav from "../components/nav";
 import "../styles.css";
 
