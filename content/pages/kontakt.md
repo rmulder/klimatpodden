@@ -1,10 +1,6 @@
 ---
-title: Kontakt
+title: Contact
 ---
+**Email:** bsubler@familyhealthservices.org
 
-**Email:**
-ragnhild@konvoj.se
-
-**Följ och gilla Klimatpodden:** \
-**Twitter:** <https://twitter.com/Klimatpodden> \
-**Facebook:** <https://www.facebook.com/klimatpodden>
+**Follow us on Facebook:** https://www.facebook.com/familyhealthservices.org
