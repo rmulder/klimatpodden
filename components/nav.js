@@ -51,7 +51,7 @@ const Nav = ({ router, nav }) => {
               router.pathname === "/" && "bg-gray-200"
             }`}
           >
-            Avsnitt
+            Episodes
           </a>
         </Link>
         {nav.map(({ title, slug }, i) => (

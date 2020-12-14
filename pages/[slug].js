@@ -16,7 +16,7 @@ const Page = ({ markdown }) => {
   return (
     <>
       <Head
-        title={`${data.title} | Klimatpodden`}
+        title={`${data.title} | Family Health Services`}
         description={firstParagraphFromHtmlString(html)}
         slug={slug}
       />
