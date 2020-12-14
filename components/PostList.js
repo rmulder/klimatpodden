@@ -2,7 +2,7 @@ import Pagination from "./Pagination";
 import moment from "moment";
 import Link from "next/link";
 
-export default ({ posts, currentPage, totalPages }) => {
+const PostList = ({ posts, currentPage, totalPages }) => {
   return (
     <div className="max-w-screen-md mx-auto">
       <div>
@@ -29,3 +29,5 @@ export default ({ posts, currentPage, totalPages }) => {
     </div>
   );
 };
+
+export default PostList;
