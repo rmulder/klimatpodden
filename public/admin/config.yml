@@ -3,9 +3,9 @@ backend:
   branch: master
 media_folder: public/img
 public_folder: /img
-site_url: https://klimatpodden.se
-display_url: https://klimatpodden.se
-logo_url: https://klimatpodden.se/klimatpodden-logo.svg
+site_url: https://jovial-hugle-ec6054.netlify.app
+display_url: https://jovial-hugle-ec6054.netlify.app
+logo_url: https://jovial-hugle-ec6054.netlify.app/klimatpodden-logo.svg
 slug:
   encoding: "ascii"
   clean_accents: true
