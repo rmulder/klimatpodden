@@ -32,7 +32,7 @@ const Home = ({ posts, currentPage, totalPages }) => {
               entreprenörer och andra som agerar för att stoppa
               klimatförändringarna.
             </p>
-            <img className="mb-3" src="/img/img_1277-1-1024x683.jpg" />
+            <img className="mb-3" src="/images/img_1277-1-1024x683.jpg" />
             <p className="text-sm text-gray-800">
               Ragnhild Larsson, producent och redaktör för Klimatpodden
             </p>

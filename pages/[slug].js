@@ -32,7 +32,7 @@ const Page = ({ markdown }) => {
             <div dangerouslySetInnerHTML={{ __html: html }} />
             {data.date && (
               <span className="text-sm text-gray-700 mt-4 block">
-                Publicerat {moment(data.date).format("MMM D, YYYY")}
+                Published {moment(data.date).format("MMM D, YYYY")}
               </span>
             )}
           </div>
@@ -40,7 +40,7 @@ const Page = ({ markdown }) => {
             <img
               className="sm:ml-4 sm:-mr-5 sm:-my-4"
               width="320"
-              src="/img/swish.jpg"
+              src="/images/swish.jpg"
             />
           )}
         </div>
