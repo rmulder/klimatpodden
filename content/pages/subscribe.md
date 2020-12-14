@@ -1,5 +1,5 @@
 ---
-title: Prenumerera
+title: Subscribe
 ---
 
 För att du ska få nya avsnitt automatiskt till din mobil, surfplatta eller dator kan du prenumerera via iTunes, Acast, Soundcloud eller Stitcher.

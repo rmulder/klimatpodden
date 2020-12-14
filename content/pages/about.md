@@ -1,5 +1,5 @@
 ---
-title: Om Klimatpodden
+title: About
 ---
 
 **Klimatpodden** produceras av Konvoj Produktion.\

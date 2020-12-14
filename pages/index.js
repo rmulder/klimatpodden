@@ -6,7 +6,7 @@ import { getPosts } from "../lib/api";
 const Home = ({ posts, currentPage, totalPages }) => {
   return (
     <>
-      <Head title="Klimatpodden" />
+      <Head title="Family Health Services" />
 
       <PostList
         posts={posts}

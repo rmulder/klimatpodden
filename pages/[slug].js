@@ -24,7 +24,7 @@ const Page = ({ markdown }) => {
       <div className="max-w-screen-md mx-auto">
         <div
           className={`bg-white px-5 py-4 mb-16 rounded border shadow-sm post overflow-hidden ${
-            slug === "stotta" ? "sm:flex" : ""
+            slug === "support" ? "sm:flex" : ""
           }`}
         >
           <div>
@@ -36,7 +36,7 @@ const Page = ({ markdown }) => {
               </span>
             )}
           </div>
-          {slug === "stotta" && (
+          {slug === "support" && (
             <img
               className="sm:ml-4 sm:-mr-5 sm:-my-4"
               width="320"
